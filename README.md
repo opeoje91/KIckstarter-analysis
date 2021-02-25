@@ -5,3 +5,4 @@
 ![](subcategory%20statistics.png)
 ### Screenshots from Kickstarter Campaign Analysis
 ![](Edinburg_Research.png)
+![](Box_Plot.png)
