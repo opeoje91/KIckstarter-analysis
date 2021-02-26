@@ -33,10 +33,13 @@ The dates in the data were not readable but we fixed those by converting them to
 - What can you conclude about the Outcomes based on Goals?
 The most successful campaign 76% had a goal less than $1000 while the least successful campaign had a goal ranging between $45000 and $49999. There is an equal chance of success and failure for play campaigns with goals ranging between $15000 to $19999.
 
+
 - What are some limitations of this dataset?
 The dataset includes some data that were not relevant to the analysis
 
 - What are some other possible tables and/or graphs that we could create?
 1. outside of the US, Louise is also interested in researching musicals in Great Britain, so we could create a Box plot to compare the pledged and goals with Louise’s estimated budget of €4000.
+![](Box_Plot.png)
+
  
 2. Louise is particularly interested in five plays; we could use VLOOKUP function to determine the necessary information about the plays’ campaign.
