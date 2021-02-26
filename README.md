@@ -41,9 +41,11 @@ The most successful campaign 76% had a goal less than $1000 while the least succ
 ![](/Outcome_and_Goals.png)
 
 - What are some limitations of this dataset?
+
 The dataset includes some data that were not relevant to the analysis
 
 - What are some other possible tables and/or graphs that we could create?
+
 1. outside of the US, Louise is also interested in researching musicals in Great Britain, so we could create a Box plot to compare the pledged and goals with Louise’s estimated budget of €4000.
 ![](Box_Plot.png)
 
