@@ -11,7 +11,8 @@ The analysis aimed to help Louise plan her crowdfunding campaign for her play in
 ## Analysis and Challenges
  
  Before starting the analysis, we debugged the data set to cleaned up and fixed every error to make sure the data was readable. There are various categories and subcategories of campaign, but we worked with the “theater” subset, since that is what Louise is interested in. To have a better understanding and to lend strength to our analysis, we used visualization by creating summary tables and charts to compare the outcomes of various campaigns in all the categories.
- ![](Filter_by_color.png)
+
+![](Filter_by_color.png)
   
 ### Analysis of Outcomes Based on Launch Date
 
