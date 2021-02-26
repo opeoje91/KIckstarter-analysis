@@ -9,19 +9,24 @@ Louise estimates that her play will cost $12,000, so we want to use data from th
 The analysis aimed to help Louise plan her crowdfunding campaign for her play in the US and a future musical in Great Britain by determining historically pledged and goals met from previous campaigns.
 
 ## Analysis and Challenges
+ 
  Before starting the analysis, we debugged the data set to cleaned up and fixed every error to make sure the data was readable. There are various categories and subcategories of campaign, but we worked with the “theater” subset, since that is what Louise is interested in. To have a better understanding and to lend strength to our analysis, we used visualization by creating summary tables and charts to compare the outcomes of various campaigns in all the categories.
  ![](Filter_by_color.png)
   
 ### Analysis of Outcomes Based on Launch Date
+
 Considering that the scope of the subcategory is still a bit broad, we filtered the charts to only visualize theater and plays. We also filtered to a single play.
 
 ![](Filter_by_subcategory(play).png)
 
 ### Analysis of Outcomes Based on Goals
+
 With visualization, we compared campaigns across the various categories using the parent category and created a visualization that was more specific for Louise, “theatrical productions”, using subcategories.
+
 ![](Theater_subcategory.png)
 
 ### Challenges and Difficulties Encountered
+
 The dates in the data were not readable but we fixed those by converting them to human readable formats using excel formula. Also, Outliers, these are not representative of the needed data, so we fixed these using median and interquartile range (IQR) together because of their high sensitivity to outliers, following these guidelines:
 *Any value greater than the upper quartile plus 1.5 x IQR is considered an outlier.
 *Any value less than the lower quartile minus 1.5 x IQR is considered an outlier.
@@ -33,6 +38,7 @@ The dates in the data were not readable but we fixed those by converting them to
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+
 1. There were a total of 1369 campaigns in the US and there were 839 successful campaigns with the month of May having the most successful campaign with 111 and most failed campaigns in November with a count of 31. There were 439 campaigns that failed, and 37 campaigns were canceled. 
 
 ![](Theater_Outcome_basedon_Launch_date.png)
@@ -41,6 +47,7 @@ The dates in the data were not readable but we fixed those by converting them to
 
 
 - What can you conclude about the Outcomes based on Goals?
+
 The most successful campaign 76% had a goal less than $1000 while the least successful campaign had a goal ranging between $45000 and $49999. There is an equal chance of success and failure for play campaigns with goals ranging between $15000 to $19999.
 
 ![](/Outcome_and_Goals.png)
